@@ -4,20 +4,16 @@ import {
   MDBTabsItem,
   MDBTabsLink,
   MDBTabsContent,
-  MDBTabsPane,
-  MDBTable,
-  MDBTableHead, 
-  MDBTableBody,     
+  MDBTabsPane,    
   MDBNavbar,
   MDBContainer,
   MDBNavbarBrand,
   MDBNavbarLink,
-  MDBIcon,
   MDBRow,
   MDBCol,
   MDBBtn,
   MDBTypography,
-  MDBBadge, MDBListGroup, MDBListGroupItem
+  MDBListGroup, MDBListGroupItem
 } from 'mdb-react-ui-kit';
 
 import ClearIcon from '@mui/icons-material/Clear';
@@ -99,7 +95,6 @@ export default function App() {
           <MDBContainer fluid>
               <MDBNavbarBrand href='home'>East India Trading Co.</MDBNavbarBrand>
               <MDBNavbarLink href='login'> Log out</MDBNavbarLink>
-            <MDBNavbarLink href='admin'> Admin Panel</MDBNavbarLink>
             </MDBContainer>
       </MDBNavbar>
       

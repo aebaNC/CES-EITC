@@ -5,26 +5,32 @@ import Home from "./pages/home";
 import MainP from "./pages/navigation";
 import Order from "./pages/order"
 import Admin from "./pages/adminPanel.tsx"
-
+import React from 'react';
+import useToken from './utils/userToken'
 
 import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
 
+
+
 export default function App() {
+  const { token, setToken } = useToken();
+
+  if(!token) {
+    return <Login setToken={setToken}></Login>
+  }
+
   return (
     <BrowserRouter>
       <Routes>
-          <Route path="/home" element={<Home />} />
+          <Route path="/Home" element={<Home />} />
       </Routes>
       <Routes>
-          <Route path="/login" element={<Login />} />
+          <Route path="/" element={<Home />} />
       </Routes>
       <Routes>
           <Route path="/orders" element={<Order />} />
-      </Routes>
-      <Routes>
-          <Route path="/admin" element={<Admin />} />
       </Routes>
     </BrowserRouter>
     

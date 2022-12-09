@@ -1,0 +1,102 @@
+[
+    {
+        "Note": "cheapest",
+        "Route": [
+            {
+                "CityName": "Cairo",
+                "TransportType": "Pickup",
+                "CompanyName": "East India Trading Company"
+            },
+            {
+                "CityName": "Suakin",
+                "TransportType": "Boat",
+                "CompanyName": "East India Trading Company"
+            },
+            {
+                "CityName": "Darfur",
+                "TransportType": "Car",
+                "CompanyName": "Telstar Logistics"
+            }
+        ],
+        "EstimatedTime": {
+            "Hours": 120,
+            "startDate": "Jan 1, 2022"
+        },
+        "Price": 50
+    },
+    {
+        "Note": "none",
+        "Route": [
+            {
+                "CityName": "Cairo",
+                "TransportType": "Pickup",
+                "CompanyName": "East India Trading Company"
+            },
+            {
+                "CityName": "Omdurman",
+                "TransportType": "Boat",
+                "CompanyName": "Oceanic Airlines"
+            },
+            {
+                "CityName": "Darfur",
+                "TransportType": "Plane",
+                "CompanyName": "Telstar Logistics"
+            }
+        ],
+        "EstimatedTime": {
+            "Hours": 150,
+            "startDate": "Jan 1, 2022"
+        },
+        "Price": 60
+    },
+    {
+        "Note": "best",
+        "Route": [
+            {
+                "CityName": "Cairo",
+                "TransportType": "Pickup",
+                "CompanyName": "East India Trading Company"
+            },
+            {
+                "CityName": "Suakin",
+                "TransportType": "Boat",
+                "CompanyName": "East India Trading Company"
+            },
+            {
+                "CityName": "Darfur",
+                "TransportType": "Car",
+                "CompanyName": "Telstar Logistics"
+            }
+        ],
+        "EstimatedTime": {
+            "Hours": 200,
+            "startDate": "Jan 1, 2022"
+        },
+        "Price": 10
+    },
+    {
+        "Note": "fastest",
+        "Route": [
+            {
+                "CityName": "Cairo",
+                "TransportType": "Pickup",
+                "CompanyName": "East India Trading Company"
+            },
+            {
+                "CityName": "Suakin",
+                "TransportType": "Car",
+                "CompanyName": "Telstar Logistics"
+            },
+            {
+                "CityName": "Darfur",
+                "TransportType": "Plane",
+                "CompanyName": "Oceanic Airlines"
+            }
+        ],
+        "EstimatedTime": {
+            "Hours": 50,
+            "startDate": "Jan 1, 2022"
+        },
+        "Price": 100
+    }
+]
